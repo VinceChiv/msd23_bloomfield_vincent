@@ -30,4 +30,7 @@ import java.util.Comparator;
 Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kontaktieren.
 <person123@gmail.com>
 
-* [Exercise1](exercise1.md)
+1. [Exercise1](exercise1.md)
+   * Learning markdown and how to write markdown files.
+2. [Exercise2](exercise2.md)
+   * Learning how to use git. How to set up a repository and use git commands.
