@@ -27,8 +27,8 @@ import java.util.Comparator;
 
 # Contact
 
-Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kontaktieren.
-<person123@gmail.com>
+Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kontaktieren.<br>
+<https://github.com/VinceChiv> under <https://www.fh-joanneum.at/>
 
 1. [Exercise1](exercise1.md)
    * Learning markdown and how to write markdown files.
