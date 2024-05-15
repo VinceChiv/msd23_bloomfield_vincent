@@ -18,8 +18,10 @@
 ### Application
 After implementing our methods and running main, we have a new directory in our project: `target`
 ![screenshot](resources/images/ex3_1.PNG)
-When we add our blocks for XML, run `mvn compile` in terminal.
+When we add our blocks for XML, run `mvn compile` in terminal and then `mvn exec:java`
 ![screenshot](resources/images/ex3_2.PNG)
+![screenshot](resources/images/ex3_3.PNG)
+
 
 
 
