@@ -30,7 +30,9 @@ import java.util.Comparator;
 Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kontaktieren.<br>
 <https://github.com/VinceChiv> under <https://www.fh-joanneum.at/>
 
-1. [Exercise1](exercise1.md)
+1. [Exercise 1](exercise1.md)
    * Learning markdown and how to write markdown files.
-2. [Exercise2](exercise2.md)
+2. [Exercise 2](exercise2.md)
    * Learning how to use git. How to set up a repository and use git commands.
+3. [Exercise 3](exercise3.md)
+   * Installing JDK-21 and Maven Apache. Creating calculator program. 
