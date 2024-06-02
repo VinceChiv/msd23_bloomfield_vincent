@@ -120,14 +120,14 @@ public class CalculatorTest
     @DisplayName("Factorial")
     void testFactorial()
     {
-        assertEquals(24, Calculator.factorial());
+        assertEquals(24, Calculator.factorial(4));
         System.out.println("4! = 24");
     }
     @Test
     @DisplayName("Factorial")
     void testFactorialWithNeg()
     {
-        assertEquals(0, Calculator.factorial());
+        assertEquals(0, Calculator.factorial(-4));
         System.out.println("-4! = 0");
     }
 
@@ -135,7 +135,7 @@ public class CalculatorTest
     @DisplayName("Factorial")
     void testFactorialWithZero()
     {
-        assertEquals(1, Calculator.factorial());
+        assertEquals(1, Calculator.factorial(0));
         System.out.println("0! = 1");
     }
 }

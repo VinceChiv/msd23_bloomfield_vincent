@@ -52,3 +52,4 @@ Example output:
 For our next step we create a factorial method both in our 'Calculator.java' and our test class 'CalculatorTest.java'.
 Without concrete implementation, run with coverage. Result should be this:
 ![screenshot](resources/images/ex4_2.PNG)
+To finish off, implement factorial method and test again to make sure all tests pass.

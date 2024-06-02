@@ -22,8 +22,21 @@ public class Calculator
         return number1 / number2;
     }
 
-    public static int factorial()
+    public static int factorial(int p)
     {
-        return 0;
+        int result = 1;
+        if(p < 0)
+        {
+            return 0;
+        }
+        if(p == 0)
+        {
+            return 1;
+        }
+        for(int i = 1; i <= p; i++)
+        {
+            result = result * i;
+        }
+        return result;
     }
 }
