@@ -21,6 +21,7 @@ Update `pom.xml` with the following
             <scope>test</scope>
         </dependency>
 ```
+## Testing
 Create `CalculatorTest.java`, where out tests will be written. Be mindful to add `@Test` & `@BeforeEach` annotations  
 Example:
 ```java
@@ -47,3 +48,7 @@ Example:
 Next step is to `Run with coverage`.  
 Example output:
 ![screenshot](resources/images/ex4_1.PNG)
+## Factorial Method
+For our next step we create a factorial method both in our 'Calculator.java' and our test class 'CalculatorTest.java'.
+Without concrete implementation, run with coverage. Result should be this:
+![screenshot](resources/images/ex4_2.PNG)

@@ -115,4 +115,27 @@ public class CalculatorTest
         assertEquals(0, Calculator.divide(0,45.3));
         System.out.println("0 / 45.3 = 0");
     }
+
+    @Test
+    @DisplayName("Factorial")
+    void testFactorial()
+    {
+        assertEquals(24, Calculator.factorial());
+        System.out.println("4! = 24");
+    }
+    @Test
+    @DisplayName("Factorial")
+    void testFactorialWithNeg()
+    {
+        assertEquals(0, Calculator.factorial());
+        System.out.println("-4! = 0");
+    }
+
+    @Test
+    @DisplayName("Factorial")
+    void testFactorialWithZero()
+    {
+        assertEquals(1, Calculator.factorial());
+        System.out.println("0! = 1");
+    }
 }
