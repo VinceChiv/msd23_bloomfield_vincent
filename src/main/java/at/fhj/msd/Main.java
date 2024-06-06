@@ -16,7 +16,7 @@ public class Main
         logger.info("This is informational");
         logger.error("Yo this stuff erroin'");
         System.out.println(calc.multiply(5, 12));
-        System.out.println(calc.divide(15,5));
+        System.out.println(calc.divide(15,0));
         System.out.println("\nVincent Bloomfield");
     }
 

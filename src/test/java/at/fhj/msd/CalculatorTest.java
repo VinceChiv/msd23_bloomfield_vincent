@@ -3,6 +3,7 @@ package at.fhj.msd;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest
 {
@@ -104,8 +105,8 @@ public class CalculatorTest
     @DisplayName("Divides a number by zero")
     void divideByZero()
     {
-        assertEquals(true, Double.isInfinite(Calculator.divide(54,0)), "Division by zero returns infinity");
-        System.out.println("54 / 0 = N/A");
+        assertThrows(ArithmeticException.class, () -> Calculator.divide(5, 0));
+        System.out.println("5 / 0 = N/A");
     }
 
     @Test
