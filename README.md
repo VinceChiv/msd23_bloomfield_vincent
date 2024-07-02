@@ -36,3 +36,7 @@ Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kon
    * Learning how to use git. How to set up a repository and use git commands.
 3. [Exercise 3](exercise3.md)
    * Installing JDK-21 and Maven Apache. Creating calculator program. 
+4. [Exercise 4](exercise4.md)
+   * JUnit Testing
+5. [Exercise 5](exercise5.md)
+   * Git Branching and Logging
