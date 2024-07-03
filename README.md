@@ -40,3 +40,5 @@ Für Anregungen, Verbesserungen und Fragen können Sie mich gerne per E-Mail kon
    * JUnit Testing
 5. [Exercise 5](exercise5.md)
    * Git Branching and Logging
+6. [Exercise 6](exercise6.md)
+   * Documentation exercise using javadoc
