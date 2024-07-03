@@ -1,0 +1,11 @@
+<project name="Documentation Demo">
+    <publishDate position="right"></publishDate>
+    <version position="left"></version>
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html"></item>
+            <item name="Good Styles" href="good_style.html"></item>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
